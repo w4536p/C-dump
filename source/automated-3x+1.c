@@ -6,9 +6,10 @@ int main () {
 	scanf("%d", &x);
 	printf("how much numbers should it be automated for: "); /*how much more it should calculate*/
 	scanf("%d", &n);
-
+	n++
+	
 	f = x; /*makes it automated for n numbers*/
-	y = x + n++;
+	y = x + n;
 
         start: /*goto start position and prtinting x out*/
 	printf("%d-", x);

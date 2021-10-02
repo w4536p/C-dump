@@ -26,6 +26,7 @@ int main(){
 	x++;
 	z++;
 	c = rand() % 2; /*randomiser*/
+	
 	if(c == 1){
 		printf("1");
 	}

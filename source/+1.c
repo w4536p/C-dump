@@ -4,7 +4,7 @@ int main (){
 
 	int n,x;
 	
-	x=-10;
+	x=0;
 		
 	printf("input: ");
 	scanf("%d",&n);

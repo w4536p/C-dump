@@ -28,16 +28,16 @@ int main () {
 	}}
 
 	if (x == 1){ /*checks if x is 1 and if it is makes x f, adds one to f and makes a new line*/
-	f++;
-	x = f;
-        printf("\n");
+		f++;
+		x = f;
+        	printf("\n");
 	}
 
 	if(f == y){ /*if f is y it quits the program*/
-	return 0;
+		return 0;
 	}
 	else{ /*otherwise it goes to start*/
-	goto start;
+		goto start;
 	}
         return 0;
 }

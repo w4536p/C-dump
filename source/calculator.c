@@ -10,11 +10,9 @@ int main() {
 
         start: /*loop start*/
 	printf("enter operaion (+,-,*,/): "); /*setting operation*/
-        
 	scanf("%s",op);
 	printf("enter integer one: "); /*setting integer one*/
 	scanf("%d",&x);
-       
 	printf("enter integer two: "); /*setting integer two*/
 	scanf("%d",&y);
 
@@ -31,11 +29,11 @@ int main() {
 		z = (float)x / y;	
         }
 	else{
-	printf("invalid operation: %s", op); /*invalid operation error*/
-	printf("enter a valid operation (+,-,*,/): ");
-	scanf("%s",op);
+		printf("invalid operation: %s", op); /*invalid operation error*/
+		printf("enter a valid operation (+,-,*,/): ");
+		scanf("%s",op);
 	}
-
+	
 	printf("\n%d%s%d=%.9f\n",x,op,y,z); /*printing out the decimal sum*/
 	printf("\ndo you want another calculation? (y/n): "); /*asking if another calculation is needed*/
 	scanf("%s",ac);
@@ -44,7 +42,6 @@ int main() {
 		goto start;
         }
 	else{
-        return 0;
-	}
-	
+        	return 0;
+	}	
 }

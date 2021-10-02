@@ -1,13 +1,15 @@
 #include <stdio.h>
 
-int main () { 
+int main () {
+	
 	int x,y,f,n; /*setting variables*/
+	
 	printf("enter any number: "); /*number input*/
 	scanf("%d", &x);
 	printf("how much numbers should it be automated for: "); /*how much more it should calculate*/
 	scanf("%d", &n);
-	n++
 	
+	n++
 	f = x; /*makes it automated for n numbers*/
 	y = x + n;
 
@@ -34,10 +36,8 @@ int main () {
 	if(f == y){ /*if f is y it quits the program*/
 	return 0;
 	}
-
 	else{ /*otherwise it goes to start*/
 	goto start;
 	}
-
         return 0;
 }

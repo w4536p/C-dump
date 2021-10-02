@@ -8,14 +8,14 @@ int main () {
 	scanf("%d", &n);
 
 	f = x; /*makes it automated for n numbers*/
-	y = x + n + 1;
+	y = x + n++;
 
         start: /*goto start position and prtinting x out*/
 	printf("%d-", x);
 	while(x != 1){ /*checks if number is 1 or less*/
 
 	if(x % 2 == 0){	/*if the number is even divides by two and prints x*/
-	        x = 0.5 * x;
+	        x = x / 2;
          	printf("%d-", x);
 	}
 
@@ -25,7 +25,7 @@ int main () {
 	}}
 
 	if (x == 1){ /*checks if x is 1 and if it is makes x f, adds one to f and makes a new line*/
-	f = f + 1;
+	f++;
 	x = f;
         printf("\n");
 	}

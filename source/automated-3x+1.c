@@ -9,7 +9,7 @@ int main () {
 	printf("how much numbers should it be automated for: "); /*how much more it should calculate*/
 	scanf("%d", &n);
 	
-	n++
+	n++;
 	f = x; /*makes it automated for n numbers*/
 	y = x + n;
 

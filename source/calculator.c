@@ -20,6 +20,7 @@ int main() {
 		printf("number two adress is %p\n", ip1);
 		printf("sum adress is %p\n", fp0);
 	}
+	
 	start: //loop start
 	printf("enter operaion (+,-,*,/): "); //setting operation
         
@@ -57,6 +58,5 @@ int main() {
         }
 	else{
         return 0;
-	}
-	
+	}	
 }
